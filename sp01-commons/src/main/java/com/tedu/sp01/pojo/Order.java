@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Order {
-	//∂©µ•id
+	//id
 	private String id;
-	//”√ªß
+	//user
 	private User user;
 	private List<Item> items;
-	//3333333
+	//success
 }
